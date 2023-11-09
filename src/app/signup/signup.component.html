@@ -1,0 +1,68 @@
+<body class="bg-blue-700">
+
+</body>
+
+<div class=" bg-blue-700 container">
+      <div class="row">
+        <div >
+          <h2>Sign Up</h2>
+          <span id="APImessage" class="text-danger"></span>
+          <form id="registration-form" class="">
+
+            <div>
+              <label for="username" class="form-label">Username</label> <br>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                name="username"
+              /> <br><br>
+              <span id="usernameError" class="text-danger"></span>
+            </div>
+
+            <div >
+              <label for="email" class="form-label">Email</label> <br>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              /> <br> <br>
+              <span id="emailError" class="text-danger"></span>
+            </div>
+            <div>
+              <label for="password" class="form-label">Password</label> <br>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+              /> <br> <br>
+              <span id="passwordError" class="text-danger"></span>
+            </div>
+            <div >
+              <label for="confirmPassword" class="form-label"
+                >Confirm Password</label
+              > <br>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+                name="confirmPassword"
+              /> <br> <br>
+              <span id="confirmPasswordError" class="text-danger"></span>
+            </div>
+            <button (click)="navigateToLogin()"class="btn btn-primary">Sign Up</button>
+          </form>
+          <p >Already have an account? <a href="\frontend\src\app\login\login.component.html">Sign In</a></p>
+        </div>
+        <div class=" img-container">
+          <img class="rounded"
+            src="https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image" width="600px" height="600px"
+          />
+        </div>
+      </div>
+    </div>
+
+
